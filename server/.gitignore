@@ -1,0 +1,22 @@
+
+# Ignore .env file
+.env
+
+# Ignore Next.js build files
+.next
+
+# Ignore Tailwind CSS build files
+.cache
+build
+
+# Ignore VS Code files
+.vscode
+
+# Ignore log files
+logs
+
+# Ignore TypeScript compilation files
+tsconfig.tsbuildinfo
+
+#ignore node_modules
+node_modules
