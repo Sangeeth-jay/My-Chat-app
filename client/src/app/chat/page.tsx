@@ -1,8 +1,15 @@
+import SideBar from '@/components/SideBar/SideBar'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <>
+      <div className='min-h-screen'>
+        <div className='mx-auto flex'>
+          <SideBar/>
+        </div>
+      </div>
+    </>
   )
 }
 
